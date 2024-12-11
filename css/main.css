@@ -1,0 +1,57 @@
+.flexDiv{
+    display: flex;
+    background-color: green;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 70px;
+
+
+}
+
+.flexDiv p{
+    color: white;
+}
+
+.div3{
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.dropdown {
+    position: relative; /* Ensures the dropdown-content is positioned relative to the parent */
+}
+
+.dropdown-content {
+    display: flex; /* Always visible */
+    position: absolute; /* Positioned below the Products link */
+    top: 245%; /* Position the dropdown directly below the parent link */
+    left: 50%; /* Align with the center of the parent container */
+    transform: translateX(-50%); /* Center-align the dropdown */
+    background-color: green;
+    min-width: 150px; /* Minimum width of the dropdown */
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Adds shadow for better visuals */
+    z-index: 1; /* Ensures it appears above other elements */
+    flex-direction: column; /* Ensures menu items are stacked vertically */
+    align-items: center;
+    padding: 10px 0; /* Adds spacing inside the dropdown */
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: block; /* Full width clickable links */
+}
+.dropdown-content a:hover {
+    background-color: green; /* Light gray background on hover */
+}
+.dropdown:hover .dropdown-content {
+    display: flex; /* Make the dropdown visible */
+}
+
+
+

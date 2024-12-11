@@ -1,0 +1,35 @@
+body{
+    background-color: #FFC68C;
+}
+
+body h2,h3,p{
+    color: green;
+    font-family: cursive;
+}
+
+/* body a{
+    font-family: cursive;
+} */
+.dogDiv{
+    display: flex;
+}
+
+#ricardoDog{
+    width: 60%;
+
+}
+
+.dogDiv p{
+    margin-left: 20px;
+
+}
+.logoPic{
+    width: 100px;
+
+}
+
+.link1{
+    position: absolute;
+    left: 6%;
+    font-family: cursive;
+}

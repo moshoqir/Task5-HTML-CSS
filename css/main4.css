@@ -1,0 +1,21 @@
+
+div{
+    
+    position: relative;
+    border: 42px solid yellow;
+    background-color: green;
+    margin: auto;
+    width: 50%;
+    height: 400px;
+    outline: 0.5rem solid green;
+    border-style: double;
+    
+
+}
+
+.h2{
+    color: white;
+    position: relative;
+    text-align: center;
+    top: 40%;
+}

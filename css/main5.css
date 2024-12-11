@@ -1,0 +1,33 @@
+table{
+    background-color: #66A8BE;
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+
+table *{
+    text-align: center;
+}
+
+
+
+table td{
+    border: 1px solid white;
+}
+
+.tr1 td{
+    background-color: #8DC6D8;
+    height: 50px;
+    height: 80px;
+    
+    
+}
+
+.tr2 td{
+    background-color: #D6EBF0;
+    height: 50px;
+}
+
+.tr3 td{
+    background-color: #B1CC7F;
+
+}

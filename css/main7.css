@@ -1,0 +1,66 @@
+body{
+    background-color: #E0E0E0;
+}
+
+.divFlex{
+    display: flex;
+    /* justify-content: space-evenly; */
+    gap: 25px;
+
+}
+.div1{
+    
+   
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    
+
+}
+
+.div2{
+    box-shadow: 0.5px 0.5px #E0E0E0;
+   
+    width: 100px;
+    height: 100px;
+    background-color: white;
+  
+}
+
+.div3{
+    box-shadow: 1px 1px 3px gray;
+   
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    
+
+}
+
+.div4{
+
+    box-shadow:3px 6px 14px gray;
+
+   
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+
+.div5{
+    box-shadow:11px 7px 14px gray;
+
+   
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+
+.div6{
+    box-shadow:16px 14px 14px gray;
+
+   
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}

@@ -1,0 +1,86 @@
+body{
+    direction: rtl;
+
+    
+
+    
+}
+
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+   
+    padding-top: 20px;
+  }
+
+.right{
+    width: 80%;
+
+
+    right: 7px;
+}
+
+.right *{
+    font-family: system-ui;
+
+    left: 5%;
+
+}
+
+.infoDiv{
+    width: fit-content;
+    display: flex;
+   
+}
+
+.infoDiv img{
+    width: 50px;
+    height: 60px;
+    position: relative;
+    right: 5px;
+    top: 13px;
+
+
+}
+
+.pDiv{
+    position: relative;
+    right: 7%;
+}
+
+.pDiv a{
+    text-decoration: none;
+}
+
+.mainPic{
+    width: 65%;
+}
+
+.left{
+    width: 20%;
+    left: 100px;
+}
+
+.left *{
+    font-family: system-ui;
+    text-decoration: none;
+}
+
+.left img{
+    width: 150px;
+
+    image-resolution: initial;
+
+}
+
+
+
+
+.visitorsDiv{
+    display: flex
+    ;
+        gap: 8px;
+}
